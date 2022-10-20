@@ -1,0 +1,218 @@
+[
+	{
+		"name": "For Investors",
+		"order": 1,
+		"isActive": true,
+		"lastPosts": [
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:56:06.400138+07:00",
+				"title": "4 Things Founders Should Know Before Pitching An Investor",
+				"excerpt": "As a startup founder, raising money is one of your most important tasks. Funding can help you scale operations, hire new team members, launch marketing initiatives and more. ",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/a97dbcb3-2be8-41a0-8dd2-79d4b7249011.png"
+				},
+				"tags": null,
+				"slug": "4-things-founders-should-know-before-pitching-an-investor",
+				"readTime": "3 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:54:42.522275+07:00",
+				"title": "Leveling the Playing Field: Startup Funding Without the Golden Handcuffs",
+				"excerpt": "Founders have been conditioned to think venture capital (VC) is the best source of funding for a startup. The reality is that venture capital can hurt you as ",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/f215f020-56a9-4af9-8bad-420e8f466c8e.png"
+				},
+				"tags": null,
+				"slug": "leveling-the-playing-field-startup-funding-without-the-golden-handcuffs",
+				"readTime": "6 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:51:33.610021+07:00",
+				"title": "Investing in Startups 101",
+				"excerpt": "The high-speed world of startups, and the risks of investing in them, are well documented, but startup investing can be complicated and there is a lot of information you should know ",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/2da71a9c-e458-490e-883c-17f425c6f45e.png"
+				},
+				"tags": null,
+				"slug": "investing-in-startups-101",
+				"readTime": "6 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:49:28.313614+07:00",
+				"title": "How to Read a Startup’s Financial Statements",
+				"excerpt": "When considering which startups to invest in on StartEngine",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/9e67f179-10c6-420a-b7f7-71a63dfa1942.png"
+				},
+				"tags": null,
+				"slug": "how-to-read-a-startups-financial-statements",
+				"readTime": "1 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:45:21.722112+07:00",
+				"title": "How Funding Rounds Can Affect Your Investments",
+				"excerpt": "What happens to your investment if the company you invested in goes on to raise another round of funding in the future? If you plan to invest in a startup, one of the concepts you want to fully",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/bfa99b62-4ad8-45a4-a73f-5a70df0c0256.jpg"
+				},
+				"tags": null,
+				"slug": "how-funding-rounds-can-affect-your-investments",
+				"readTime": "6 min read"
+			}
+		],
+		"id": "d73acbc1-4aa1-4202-b6d5-b36a7dc59bc8"
+	},
+	{
+		"name": "For Companies",
+		"order": 1,
+		"isActive": true,
+		"lastPosts": [
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T18:12:53.219224+07:00",
+				"title": "Brennan White & Matt Peters, Cortex",
+				"excerpt": "What’s the inspiration behind Cortex?At our first company, a content creation agency, every customer was wrestling with the same underlying problem — they never knew what videos and photos to make. At the Inc 5,000 AwardsThey never knew w",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/bdb5ac57-35c2-4df0-b6b3-34693cdfc057.PNG"
+				},
+				"tags": null,
+				"slug": "brennan-white-matt-peters-cortex",
+				"readTime": "7 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T18:07:47.670323+07:00",
+				"title": "Jaron Lukas, Yo Sub Kwan, and Raymond Bailey",
+				"excerpt": "What’s the inspiration behind Yumwoof?In 2008, our Head Chef Ray's dog became ill. He could no longer afford to keep feeding his dog the dry kibble he had been feeding him for years.Luckily, he was a professional chef trained at The Fr",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/c6356b47-186a-4706-ad1d-c3f408e36870.PNG"
+				},
+				"tags": null,
+				"slug": "jaron-lukas-yo-sub-kwan-and-raymond-bailey",
+				"readTime": "5 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T18:03:15.773738+07:00",
+				"title": "Meet the Innovators: Piestro’s Automated Pizzeria",
+				"excerpt": "StartEngine’s Strategic Advisor Kevin O’Leary (aka “Mr. Wonderful”) regularly sits down with companies on our platform in a series we call",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/9b50f7c9-691e-4246-9493-8095123dfbc8.png"
+				},
+				"tags": null,
+				"slug": "meet-the-innovators-piestros-automated-pizzeria",
+				"readTime": "4 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T18:01:17.106343+07:00",
+				"title": "Year in review 2021: A Letter from our Founder",
+				"excerpt": " I always feel that last year’s accomplishments felt good but this year seems impossibly difficult to achieve.",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/8124379d-0485-43b4-884d-6923757332ff.png"
+				},
+				"tags": null,
+				"slug": "year-in-review-2021-a-letter-from-our-founder",
+				"readTime": "1 min read"
+			},
+			{
+				"author": {
+					"email": "muslem.safir@microcis.net",
+					"id": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+					"avatar": null,
+					"firstName": "Muslem",
+					"lastName": "Safir",
+					"fullName": "Muslem Safir"
+				},
+				"createdAt": "2022-05-14T17:59:47.646180+07:00",
+				"title": "StartEngine Reports 146% Revenue Growth In First Half of 2021",
+				"excerpt": "StartEngine has reported its financial results for the six months ended June 30 2021. Overall growth is strong, and we are very encouraged by our performance. Top line revenue growth went up 146% year-over-year to $13.36 million for the first half of 2021",
+				"headerImage": {
+					"mediaType": "image",
+					"url": "/media/public/e1b86b84-0907-412c-bc8a-a3aca20554da/2ce6c0e0-0587-4456-88eb-c8dc3984808c.png"
+				},
+				"tags": null,
+				"slug": "startengine-reports-146-revenue-growth-in-first-half-of-2021",
+				"readTime": "4 min read"
+			}
+		],
+		"id": "ef84d0eb-6fed-4e5c-a658-71a538af726a"
+	}
+]

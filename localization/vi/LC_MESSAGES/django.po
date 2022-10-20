@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 17:12+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: EarlyBird/settings/i18n.py:8
+msgid "Vietnam"
+msgstr "Việt Nam"
+
+#: EarlyBird/settings/i18n.py:9
+msgid "English"
+msgstr "tiếng Anh"
+
+#: apps/authentication/api.py:46
+#, fuzzy
+#| msgid "your account successfully activated"
+msgid "your account successfully activated."
+msgstr "tài khoản của bạn đã được kích hoạt thành công."
+
+#: apps/authentication/models.py:42
+msgid "first name"
+msgstr "tên đầu tiên"
+
+#: apps/authentication/models.py:43
+msgid "last name"
+msgstr "họ"
+
+#: apps/authentication/models.py:45
+msgid "staff status"
+msgstr "tình trạng nhân viên"
+
+#: apps/authentication/models.py:47
+msgid "Designates whether the user can log into this admin site."
+msgstr ""
+"Chỉ định liệu người dùng có thể đăng nhập vào trang web quản trị này hay "
+"không."
+
+#: apps/authentication/models.py:50
+msgid "active"
+msgstr "tích cực"
+
+#: apps/authentication/models.py:53
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+"Chỉ định xem người dùng này có nên được coi là đang hoạt động hay không. Bỏ "
+"chọn mục này thay vì xóa tài khoản."
+
+#: apps/authentication/models.py:57 apps/authentication/models.py:136
+msgid "date joined"
+msgstr "ngày tham gia"
+
+#: apps/authentication/models.py:117
+msgid "SystemUser"
+msgstr "Người sử dụng"
+
+#: apps/authentication/models.py:135
+msgid "last login"
+msgstr "lân đăng nhập cuôi"
+
+#: apps/authentication/models.py:144
+msgid "Social Accounts"
+msgstr "Tài khoản xã hội"
+
+#: apps/authentication/models.py:151
+msgid "token"
+msgstr "mã thông báo"
+
+#: apps/authentication/models.py:155
+msgid "token secret"
+msgstr "mã thông báo bí mật"
+
+#: apps/authentication/models.py:158
+msgid "expires at"
+msgstr "hết hạn vào"
+
+#: apps/authentication/models.py:162
+msgid "social application token"
+msgstr ""
+
+#: apps/authentication/models.py:163
+msgid "social application tokens"
+msgstr ""
+
+#: apps/authentication/serializers.py:38
+msgid "user with this email is already exist"
+msgstr "người dùng với email này đã tồn tại"
+
+#: apps/media_center/serialzer.py:26
+#, python-format
+msgid "image is ver big . you can upload smaller than %s MB"
+msgstr "hình ảnh rất lớn. bạn có thể tải lên nhỏ hơn %s MB"
+
+#: apps/media_center/serialzer.py:31
+#, python-format
+msgid "video is ver big  . you can upload smaller than %s MB"
+msgstr "video rất lớn. bạn có thể tải lên nhỏ hơn %s MB"
+
+#: apps/media_center/serialzer.py:37
+#, python-format
+msgid "doc is ver big  . you can upload smaller than %s MB"
+msgstr "doc là rất lớn. bạn có thể tải lên nhỏ hơn %s MB"
+
+#: apps/media_center/serialzer.py:41
+msgid "this file is not supported"
+msgstr "tệp này không được hỗ trợ"
+
+#: apps/system_settings/models.py:114
+msgid "contact form data send to this email"
+msgstr "dữ liệu biểu mẫu liên hệ gửi đến email này"
+
+#: utils/exceptions.py:28
+msgid "the provided token is expired or unauthorized token "
+msgstr "mã thông báo được cung cấp đã hết hạn hoặc mã thông báo trái phép"
+
+#: utils/exceptions.py:33
+msgid "please varify your account account."
+msgstr "vui lòng xác minh tài khoản tài khoản của bạn."
+
+#: utils/exceptions.py:38 utils/exceptions.py:43
+msgid "some thing went wrong with social oauth please try again later"
+msgstr "một số vấn đề xảy ra với oauth mạng xã hội, vui lòng thử lại sau"
+
+#: utils/maile.py:19
+msgid "mail successfully sent."
+msgstr "Đã gửi thư thành công."
+
+#: utils/maile.py:21 utils/maile.py:23
+msgid "some thing went wrong"
+msgstr "có gì đó không ổn"
+
+#: utils/oauth2.py:141
+#, python-format
+msgid ""
+"a %(provider)s  account with email (%(email)s) already exist .  please sign "
+"in with %(provider)s"
+msgstr "tài khoản %(provider)s với email (%(email)s) đã tồn tại. vui lòng đăng nhập bằng %(provider)s"
+
+#: utils/oauth2.py:148
+#, python-format
+msgid "an account with this email (%s) already exist ! sign in with email"
+msgstr "tài khoản với email này (%s) đã tồn tại! đăng nhập bằng email"

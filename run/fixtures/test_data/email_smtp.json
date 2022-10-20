@@ -1,0 +1,17 @@
+[
+  {
+    "model": "system_settings.smtpconfig",
+    "pk": 5,
+    "fields": {
+      "use_tls": true,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "host_user": "noreplay.earlybird@gmail.com",
+      "host_password": "iyjqqfpdodaetyrf",
+      "use_ssl": false,
+      "default": true,
+      "used_for": "confirm_mail"
+    }
+  }
+
+]

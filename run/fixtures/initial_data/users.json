@@ -1,0 +1,58 @@
+[
+  {
+    "model": "authentication.systemuser",
+    "pk": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+    "fields": {
+      "password": "pbkdf2_sha256$320000$yOUz64z3JmHiWdYqM2NRDJ$Iiu6IEpgvHutt6oNiyAmSft8xUI4GFGB1QwtXLj7k5Q=",
+      "last_login": "2022-02-17T12:58:24.974Z",
+      "is_superuser": true,
+      "role": "client",
+      "avatar": null,
+      "cover_photo": null,
+      "headline": null,
+      "bio": null,
+      "angel": null,
+      "facebook": null,
+      "twitter": null,
+      "linkedIn": null,
+      "website": null,
+      "email": "ehsan.safir@microcis.net",
+      "is_verified": true,
+      "first_name": "Ehsan",
+      "last_name": "Safir",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-02-15T10:04:17.723Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+   {
+    "model": "authentication.systemuser",
+    "pk": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+    "fields": {
+      "password": "pbkdf2_sha256$320000$yOUz64z3JmHiWdYqM2NRDJ$Iiu6IEpgvHutt6oNiyAmSft8xUI4GFGB1QwtXLj7k5Q=",
+      "last_login": "2022-02-17T12:58:24.974Z",
+      "is_superuser": true,
+      "role": "admin",
+      "avatar": null,
+      "cover_photo": null,
+      "headline": null,
+      "bio": null,
+      "angel": null,
+      "facebook": null,
+      "twitter": null,
+      "linkedIn": null,
+      "website": null,
+      "email": "muslem.safir@microcis.net",
+      "is_verified": true,
+      "first_name": "Muslem",
+      "last_name": "Safir",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-02-15T10:04:17.723Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

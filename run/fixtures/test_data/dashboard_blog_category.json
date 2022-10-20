@@ -1,0 +1,16 @@
+[
+  {
+    "model": "learning_board.blogcategory",
+    "pk": "082f59e0-b2b3-46d8-8e64-66d46101db4c",
+    "fields": {
+      "name": "series"
+    }
+  },
+  {
+    "model": "learning_board.blogcategory",
+    "pk": "58ef2c0d-727c-4d75-b797-a239701c1c96",
+    "fields": {
+      "name": "will"
+    }
+  }
+]

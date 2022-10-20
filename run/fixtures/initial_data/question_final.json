@@ -1,0 +1,1253 @@
+[
+  {
+    "model": "dashboard.question",
+    "pk": 1,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "invest_invest_in",
+      "question_class": 1,
+      "text": "What you would invest in?",
+      "text_vi": "Những gì bạn sẽ đầu tư vào?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 2,
+    "fields": {
+      "is_active": true,
+      "widget_type": "multiple_choice",
+      "code": "invest_invest_context",
+      "question_class": 1,
+      "text": "What would you like to see more of in Vietnam? ",
+      "text_vi": "Những gì bạn muốn thấy nhiều hơn ở Việt Nam?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 3,
+    "fields": {
+      "is_active": true,
+      "widget_type": "slider",
+      "code": "invest_income_bracket",
+      "question_class": 2,
+      "text": "Select your monthly income bracket?",
+      "text_vi": "Chọn khung thu nhập hàng tháng của bạn?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 4,
+    "fields": {
+      "is_active": true,
+      "widget_type": "slider",
+      "code": "invest_invest_amount",
+      "question_class": 2,
+      "text": "Select how much do you invest now??",
+      "text_vi": "Chọn bao nhiêu bạn đầu tư bây giờ ??",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 5,
+    "fields": {
+      "is_active": true,
+      "widget_type": "multiple_choice",
+      "code": "invest_learn_platform",
+      "question_class": 2,
+      "text": "Preferred Social Media platform to learn about new investment news?",
+      "text_vi": "Nền tảng truyền thông xã hội ưa thích để tìm hiểu về tin tức đầu tư mới?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 6,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_referral_link",
+      "question_class": 2,
+      "text": "Do you want to make passive income get a referral link and become an affiliate? ",
+      "text_vi": "Bạn có muốn làm thu nhập thụ động có được một liên kết giới thiệu và trở thành một chi nhánh?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 7,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_investor_age",
+      "question_class": 3,
+      "text": "How old are you?",
+      "text_vi": "Bạn bao nhiêu tuổi?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 8,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_total_annual_income",
+      "question_class": 3,
+      "text": "What is your total annual income (i.e. employment, pension, rental property, investments, etc.)?",
+      "text_vi": "Tổng thu nhập hàng năm của bạn là bao nhiêu (I.E. Việc làm, lương hưu, tài sản cho thuê, đầu tư, v.v.)?",
+      "hint": "Your income level helps us determine your financial goals",
+      "hint_vi": "Mức thu nhập của bạn giúp chúng tôi xác định mục tiêu tài chính của bạn",
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 9,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_monthly_savings",
+      "question_class": 3,
+      "text": "How much of your monthly pay cheque do you put aside for savings and/or investments?",
+      "text_vi": "Bao nhiêu kiểm tra lương hàng tháng của bạn, bạn đặt sang một bên để tiết kiệm và / hoặc đầu tư?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 10,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_annual_income_security",
+      "question_class": 3,
+      "text": "How would you describe the security of your annual income, whether it is from employment or other sources?",
+      "text_vi": "Làm thế nào bạn sẽ mô tả bảo mật của thu nhập hàng năm của bạn, cho dù đó là từ việc làm hoặc các nguồn khác?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 11,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_invest_main_objective",
+      "question_class": 4,
+      "text": "What is your main objective for this investment?",
+      "text_vi": "Mục tiêu chính của bạn cho khoản đầu tư này là gì?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 12,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_withdraw_money",
+      "question_class": 4,
+      "text": "When do you expect to withdraw your money?",
+      "text_vi": "Khi nào bạn mong đợi rút tiền của bạn?",
+      "hint": "The length of time you invest will help us determine your ability to tolerate fluctuations in your account",
+      "hint_vi": "Khoảng thời gian bạn đầu tư sẽ giúp chúng tôi xác định khả năng chịu đựng những biến động trong tài khoản của bạn",
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 13,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_investment_dropped",
+      "question_class": 5,
+      "text": "If your investment dropped 25% in value, consistent with the market, how would you respond?",
+      "text_vi": "Nếu khoản đầu tư của bạn giảm 25% về giá trị, phù hợp với thị trường, bạn sẽ phản hồi như thế nào?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 14,
+    "fields": {
+      "is_active": true,
+      "widget_type": "single_choice",
+      "code": "invest_market_tolerance",
+      "question_class": 5,
+      "text": "Which statement best describes your tolerance of market fluctuations?",
+      "text_vi": "Phát biểu nào mô tả đúng nhất về sự khoan dung của sự biến động của thị trường của bạn?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 15,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_motivation",
+      "question_class": 6,
+      "text": "Why did you start this company? What excites you about it?",
+      "text_vi": "Tại sao bạn bắt đầu công ty này?Điều gì làm bạn phấn khích về nó?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 16,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_team_how_meet",
+      "question_class": 6,
+      "text": "If co-founders, how did you meet?",
+      "text_vi": "Nếu đồng sáng lập, bạn đã gặp nhau như thế nào?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 17,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_employees",
+      "question_class": 6,
+      "text": "How many full-time employees are in the team? How many are developers/engineers? Where are they located? Office-based or working from home?",
+      "text_vi": "Có bao nhiêu nhân viên toàn thời gian trong đội?Nhà phát triển / kỹ sư là bao nhiêu?Họ đang ở đâu?Văn phòng dựa trên văn phòng hoặc làm việc tại nhà?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 18,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_team_domain",
+      "question_class": 6,
+      "text": "What is the domain expertise of the team?",
+      "text_vi": "Chuyên môn tên miền của đội là gì?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 19,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_org_chart",
+      "question_class": 6,
+      "text": "Organizational chart.",
+      "text_vi": "Sơ đồ tổ chức.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 5
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 20,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_beneficial_owners",
+      "question_class": 6,
+      "text": "Current company beneficial owners above 10% KYC (we need due diligence team).",
+      "text_vi": "Công ty hiện tại Chủ sở hữu có lợi trên 10% KYC (chúng tôi cần nhóm siêng năng).",
+      "hint": null,
+      "hint_vi": null,
+      "order": 6
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 21,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_previous_exp",
+      "question_class": 6,
+      "text": "Tell us about your previous start-up and corporate experience.",
+      "text_vi": "Hãy cho chúng tôi biết về kinh nghiệm khởi nghiệp và doanh nghiệp trước đó của bạn.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 7
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 22,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_vietnamese_permit",
+      "question_class": 6,
+      "text": "Are you eligible to work in Vietnam? Do you hold an Vietnamese passport or Vietnamese working permit?",
+      "text_vi": "Bạn có đủ điều kiện để làm việc tại Việt Nam?Bạn có giữ hộ chiếu Việt Nam hoặc giấy phép làm việc Việt Nam không?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 8
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 23,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_successfully",
+      "question_class": 6,
+      "text": "Tell us about a time you most successfully hacked some system (non-computer) to your advantage.",
+      "text_vi": "Hãy cho chúng tôi biết về một thời gian bạn đã hack thành công nhất một số hệ thống (không phải máy tính) với lợi thế của bạn.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 9
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 24,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_interesting_created_project",
+      "question_class": 6,
+      "text": "Tell us about an interesting project, preferably outside of class or work, that two or more of you created together.",
+      "text_vi": "Hãy cho chúng tôi biết về một dự án thú vị, tốt nhất là bên ngoài lớp học hoặc công việc, hai hoặc nhiều hơn bạn đã tạo ra cùng nhau.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 10
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 25,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_customers",
+      "question_class": 7,
+      "text": "Who are your customers and/or users in more detail?",
+      "text_vi": "Khách hàng của bạn và / hoặc người dùng chi tiết hơn là ai?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 26,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_customer_alleviate",
+      "question_class": 7,
+      "text": "Explain how your proposition will alleviate specific customer pain-points.",
+      "text_vi": "Giải thích về cách đề xuất của bạn sẽ làm giảm điểm đau của khách hàng cụ thể.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 27,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_acquire_customers",
+      "question_class": 7,
+      "text": "How will you acquire customers/users?",
+      "text_vi": "Làm thế nào bạn sẽ có được khách hàng / người dùng?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 28,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_competitors",
+      "question_class": 7,
+      "text": "Who are your competitors, and who might become competitors?",
+      "text_vi": "Đối thủ của bạn là ai, và ai có thể trở thành đối thủ cạnh tranh?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 29,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_fear",
+      "question_class": 7,
+      "text": "Who do you fear most?",
+      "text_vi": "Bạn sợ ai nhất?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 5
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 30,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_people_need",
+      "question_class": 8,
+      "text": "How do you know people need what you're making?",
+      "text_vi": "Làm thế nào để bạn biết mọi người cần những gì bạn đang làm?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 31,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_what_is_new",
+      "question_class": 8,
+      "text": "What's new about what you're making?",
+      "text_vi": "Có gì mới về những gì bạn đang làm?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 32,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_replacement_for_customer",
+      "question_class": 8,
+      "text": "What substitutes do your target personas resort to because it doesn't exist yet?",
+      "text_vi": "Những gì thay thế làm mục tiêu của bạn personas khu nghỉ dưỡng vì nó chưa tồn tại?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 33,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_exists_or_radical",
+      "question_class": 8,
+      "text": "Is this idea a derivative of something that already exists or is it a radical/disruptive idea?",
+      "text_vi": "Đây có phải là ý tưởng về việc phái sinh của một cái gì đó đã tồn tại hoặc đó là một ý tưởng triệt để / gây rối?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 34,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_chicken-and-egg",
+      "question_class": 8,
+      "text": "If your idea is the type that faces a chicken-and-egg problem in the sense that it won’t be attractive to users till it has a lot of users (e.g. a marketplace), how will you overcome that?",
+      "text_vi": "Nếu ý tưởng của bạn là loại đối mặt với một vấn đề gà và trứng theo nghĩa là sẽ không hấp dẫn người dùng cho đến khi nó có rất nhiều người dùng (ví dụ: một thị trường), bạn sẽ vượt qua nó như thế nào?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 5
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 35,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_validate_market",
+      "question_class": 9,
+      "text": "What steps have you taken to validate the market?",
+      "text_vi": "Những bước bạn đã thực hiện để xác nhận thị trường?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 36,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_active_customer",
+      "question_class": 9,
+      "text": "How many active customers/users have you?",
+      "text_vi": "Có bao nhiêu khách hàng tích cực / người dùng có bạn?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 37,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_more_about_customer",
+      "question_class": 9,
+      "text": "Tell us more about these customers/users. Are they B2C/B2B customers? Revenue generating?",
+      "text_vi": "Hãy cho chúng tôi biết thêm về những khách hàng / người dùng này.Họ là khách hàng B2C / B2B?Doanh thu tạo ra?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 38,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_incubator_program_participate",
+      "question_class": 9,
+      "text": "If you have already participated or committed to participate in an incubator, accelerator or pre-accelerator program, tell us about it.",
+      "text_vi": "Nếu bạn đã tham gia hoặc cam kết tham gia vào chương trình ấp trứng, máy gia tốc hoặc bộ tăng tốc trước, hãy cho chúng tôi biết về nó.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 39,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_financial_record",
+      "question_class": 10,
+      "text": "Financial records if any.",
+      "text_vi": "Hồ sơ tài chính nếu có.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 40,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_have_revenue",
+      "question_class": 10,
+      "text": "Do you have revenue?",
+      "text_vi": "Bạn có doanh thu?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 41,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_monthly_growth_rate",
+      "question_class": 10,
+      "text": "What is your monthly growth rate?",
+      "text_vi": "Tốc độ tăng trưởng hàng tháng của bạn là bao nhiêu?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 42,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_how_make_money",
+      "question_class": 10,
+      "text": "How do or will you make money? (SaaS model, Licensing, Consulting & Training etc).",
+      "text_vi": "Làm thế nào để hoặc bạn sẽ kiếm tiền?(Mô hình SaaS, Cấp phép, Tư vấn & Đào tạo, v.v.).",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 43,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_make_money_estiamte",
+      "question_class": 10,
+      "text": "How much could you make? (We realize you can’t know precisely, but give your best estimate)",
+      "text_vi": "Bạn có thể làm bao nhiêu?(Chúng tôi nhận ra bạn không thể biết chính xác, nhưng đưa ra ước tính tốt nhất của bạn)",
+      "hint": null,
+      "hint_vi": null,
+      "order": 5
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 44,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_year_expense",
+      "question_class": 10,
+      "text": "What are your monthly expenses for the next 12 months?",
+      "text_vi": "Chi phí hàng tháng của bạn trong 12 tháng tới là gì?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 6
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 45,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_successfully_raised_money_before",
+      "question_class": 10,
+      "text": "Have you successfully raised money before? If so, how much?",
+      "text_vi": "Bạn đã quyên góp tiền thành công trước đây?Nếu có, bao nhiêu?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 7
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 46,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_intellectual_property_overlap_project",
+      "question_class": 11,
+      "text": "Are any of the founders covered by non-competes or intellectual property agreements that overlap with your project? If so, explain.",
+      "text_vi": "Có bất kỳ người sáng lập nào được bảo vệ bởi các thỏa thuận sở hữu phi cạnh tranh hoặc trí tuệ trùng lặp với dự án của bạn?Nếu vậy, hãy giải thích.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 47,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_code_written_by_someone",
+      "question_class": 11,
+      "text": "Was any of your code written by someone who is not one of your founders? If so, describe how can you legally use it. (Open source is ok of course).",
+      "text_vi": "Có bất kỳ mã nào của bạn được viết bởi một người không phải là một trong những người sáng lập của bạn?Nếu vậy, hãy mô tả làm thế nào bạn có thể sử dụng hợp pháp nó.(Tất nhiên là nguồn mở là OK).",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 48,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_extra_info",
+      "question_class": 11,
+      "text": "Is there anything else we should know about your company? (co-founders who have left, etc)",
+      "text_vi": "Có bất cứ điều gì khác chúng ta nên biết về công ty của bạn?(những người đồng sáng lập đã rời đi, v.v.)",
+      "hint": null,
+      "hint_vi": null,
+      "order": 3
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 49,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_equity_ownership_breakdown",
+      "question_class": 11,
+      "text": "Describe the equity ownership (ordinary, preferential shares) breakdown of your company between founders, employees, investors etc.",
+      "text_vi": "Mô tả sở hữu vốn chủ sở hữu (cổ phiếu phổ thông, cổ phiếu ưu đãi) của công ty bạn giữa người sáng lập, nhân viên, nhà đầu tư, v.v.",
+      "hint": null,
+      "hint_vi": null,
+      "order": 4
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 50,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_why_chose_us",
+      "question_class": 12,
+      "text": "Why did you chose Flocks AI Platform?",
+      "text_vi": "Tại sao bạn đã chọn Nền chim sớm?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 1
+    }
+  },
+  {
+    "model": "dashboard.question",
+    "pk": 51,
+    "fields": {
+      "is_active": true,
+      "widget_type": "input_text",
+      "code": "project_referred_by",
+      "question_class": 12,
+      "text": "Referred by?",
+      "text_vi": "Gọi bằng?",
+      "hint": null,
+      "hint_vi": null,
+      "order": 2
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 1,
+    "fields": {
+      "question": 2,
+      "answer_text": "Technology",
+      "answer_text_vi": "Công nghệ"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 2,
+    "fields": {
+      "question": 2,
+      "answer_text": "Beauty",
+      "answer_text_vi": "Sắc đẹp"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 3,
+    "fields": {
+      "question": 2,
+      "answer_text": "Food & Beverage",
+      "answer_text_vi": "Thực phẩm và đồ uống"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 4,
+    "fields": {
+      "question": 2,
+      "answer_text": "Education Agriculture",
+      "answer_text_vi": "Giáo dục Nông nghiệp."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 5,
+    "fields": {
+      "question": 2,
+      "answer_text": "Gaming",
+      "answer_text_vi": "Chơi game."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "answer_text": "Waist Management",
+      "answer_text_vi": "Quản lý eo."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 7,
+    "fields": {
+      "question": 2,
+      "answer_text": "Renewal Energy",
+      "answer_text_vi": "Năng lượng tái tạo"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 8,
+    "fields": {
+      "question": 2,
+      "answer_text": "Health & Wellness",
+      "answer_text_vi": "Sức khỏe & Sức khỏe"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 9,
+    "fields": {
+      "question": 2,
+      "answer_text": "Real Estate",
+      "answer_text_vi": "Địa ốc"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 10,
+    "fields": {
+      "question": 2,
+      "answer_text": "Finance",
+      "answer_text_vi": "Tài chính"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 11,
+    "fields": {
+      "question": 2,
+      "answer_text": "Hospitality",
+      "answer_text_vi": "Lòng hiếu khách"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 12,
+    "fields": {
+      "question": 2,
+      "answer_text": "Transportation",
+      "answer_text_vi": "Vận tải"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 13,
+    "fields": {
+      "question": 2,
+      "answer_text": "Media",
+      "answer_text_vi": "Phương tiện truyền thông"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 14,
+    "fields": {
+      "question": 5,
+      "answer_text": "facebook",
+      "answer_text_vi": "Facebook"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 15,
+    "fields": {
+      "question": 5,
+      "answer_text": "twitter",
+      "answer_text_vi": "twitter."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 16,
+    "fields": {
+      "question": 5,
+      "answer_text": "instagram",
+      "answer_text_vi": "instagram."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 17,
+    "fields": {
+      "question": 7,
+      "answer_text": "30 and under",
+      "answer_text_vi": "30 trở xuống"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 18,
+    "fields": {
+      "question": 7,
+      "answer_text": "31-40",
+      "answer_text_vi": "31-40."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 19,
+    "fields": {
+      "question": 7,
+      "answer_text": "41-55",
+      "answer_text_vi": "41-55."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 20,
+    "fields": {
+      "question": 7,
+      "answer_text": "56 - 65",
+      "answer_text_vi": "56 - 65."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 21,
+    "fields": {
+      "question": 7,
+      "answer_text": "Over 65",
+      "answer_text_vi": "Hơn 65."
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 22,
+    "fields": {
+      "question": 8,
+      "answer_text": "Under $50,000",
+      "answer_text_vi": "Dưới 50.000 đô la"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 23,
+    "fields": {
+      "question": 8,
+      "answer_text": "$50,001  - $100,000",
+      "answer_text_vi": "$ 50,001 - $ 100.000"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 24,
+    "fields": {
+      "question": 8,
+      "answer_text": "$100,001 - $300,000",
+      "answer_text_vi": "$ 100,001 - $ 300.000"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 25,
+    "fields": {
+      "question": 8,
+      "answer_text": "Over $300,000",
+      "answer_text_vi": "Hơn 300.000 đô la"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 26,
+    "fields": {
+      "question": 9,
+      "answer_text": "Greater than 12%",
+      "answer_text_vi": "Lớn hơn 12%"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 27,
+    "fields": {
+      "question": 9,
+      "answer_text": "6 - 12%",
+      "answer_text_vi": "6 - 12%"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 28,
+    "fields": {
+      "question": 9,
+      "answer_text": "1 - 5%",
+      "answer_text_vi": "1 - 5%"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 29,
+    "fields": {
+      "question": 9,
+      "answer_text": "I do not save",
+      "answer_text_vi": "Tôi không cứu"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 30,
+    "fields": {
+      "question": 10,
+      "answer_text": "very secure and stable",
+      "answer_text_vi": "rất an toàn và ổn định"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 31,
+    "fields": {
+      "question": 10,
+      "answer_text": "Secure and stable",
+      "answer_text_vi": "An toàn và ổn định"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 32,
+    "fields": {
+      "question": 10,
+      "answer_text": "Moderately secure and stable",
+      "answer_text_vi": "An toàn vừa phải và ổn định"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 33,
+    "fields": {
+      "question": 10,
+      "answer_text": "Somewhat insecure and unstable",
+      "answer_text_vi": "Hơi bất an và không ổn định"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 34,
+    "fields": {
+      "question": 11,
+      "answer_text": "To maintain the value of your original investment",
+      "answer_text_vi": "Để duy trì giá trị đầu tư ban đầu của bạn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 35,
+    "fields": {
+      "question": 11,
+      "answer_text": "Generate regular cash flow",
+      "answer_text_vi": "Tạo dòng tiền thường xuyên"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 36,
+    "fields": {
+      "question": 11,
+      "answer_text": "Grow your account and draw regular income from the account",
+      "answer_text_vi": "Phát triển tài khoản của bạn và thu nhập thường xuyên từ tài khoản"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 37,
+    "fields": {
+      "question": 11,
+      "answer_text": "Grow your account",
+      "answer_text_vi": "Phát triển tài khoản của bạn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 38,
+    "fields": {
+      "question": 11,
+      "answer_text": "Aggressively grow your account",
+      "answer_text_vi": "Tích cực phát triển tài khoản của bạn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 39,
+    "fields": {
+      "question": 12,
+      "answer_text": "Within 3 years",
+      "answer_text_vi": "Trong vòng 3 năm"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 40,
+    "fields": {
+      "question": 12,
+      "answer_text": "In 3 to 5 years",
+      "answer_text_vi": "Trong 3 đến 5 năm"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 41,
+    "fields": {
+      "question": 12,
+      "answer_text": "In 5 to 10 years",
+      "answer_text_vi": "Trong 5 đến 10 năm"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 42,
+    "fields": {
+      "question": 12,
+      "answer_text": "In 10 to 15 years",
+      "answer_text_vi": "Trong 10 đến 15 năm"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 43,
+    "fields": {
+      "question": 12,
+      "answer_text": "In more than 15 years",
+      "answer_text_vi": "Trong hơn 15 năm"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 44,
+    "fields": {
+      "question": 13,
+      "answer_text": "Cut your losses, sell your investments and hold cash with your entire account balance",
+      "answer_text_vi": "Cắt lỗ của bạn, bán đầu tư của bạn và giữ tiền mặt với toàn bộ số dư tài khoản của bạn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 45,
+    "fields": {
+      "question": 13,
+      "answer_text": "Sell half your investments and hold cash; keep remainder invested as is",
+      "answer_text_vi": "Bán một nửa số đầu tư của bạn và giữ tiền mặt;giữ phần còn lại đầu tư như là"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 46,
+    "fields": {
+      "question": 13,
+      "answer_text": "cut your losses, sell your investments and hold cash with your entire account balance",
+      "answer_text_vi": "Cắt lỗ của bạn, bán đầu tư của bạn và giữ tiền mặt với toàn bộ số dư tài khoản của bạn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 47,
+    "fields": {
+      "question": 13,
+      "answer_text": "Hold the portfolio and make no changes",
+      "answer_text_vi": "Giữ danh mục đầu tư và không thay đổi"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 48,
+    "fields": {
+      "question": 13,
+      "answer_text": "Take advantage of the lower price and invest more money",
+      "answer_text_vi": "Tận dụng mức giá thấp hơn và đầu tư nhiều tiền hơn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 49,
+    "fields": {
+      "question": 14,
+      "answer_text": "Minor fluctuations are tolerable knowing you will likely get a lower return",
+      "answer_text_vi": "Biến động nhỏ có thể chịu được biết rằng bạn có thể sẽ có được lợi nhuận thấp hơn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 50,
+    "fields": {
+      "question": 14,
+      "answer_text": "Some fluctuations in the value of your account are tolerable with a preference for a modest return",
+      "answer_text_vi": "Một số biến động trong giá trị tài khoản của bạn có thể chấp nhận được ưu tiên cho lợi nhuận khiêm tốn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 51,
+    "fields": {
+      "question": 14,
+      "answer_text": "Monthly fluctuations in the value of your account are tolerable with the possibility to earn a higher return",
+      "answer_text_vi": "Biến động hàng tháng về giá trị của tài khoản của bạn có thể chịu được khả năng kiếm được lợi nhuận cao hơn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 52,
+    "fields": {
+      "question": 14,
+      "answer_text": "You can tolerate daily fluctuations in the value of your account with the likelihood for even higher returns",
+      "answer_text_vi": "Bạn có thể chịu đựng các biến động hàng ngày trong giá trị tài khoản của bạn với khả năng lợi nhuận thậm chí cao hơn"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 53,
+    "fields": {
+      "question": 6,
+      "answer_text": "Yes",
+      "answer_text_vi": "Vâng"
+    }
+  },
+  {
+    "model": "dashboard.questiondefaultanswer",
+    "pk": 54,
+    "fields": {
+      "question": 6,
+      "answer_text": "No",
+      "answer_text_vi": "KHÔNG"
+    }
+  }
+]

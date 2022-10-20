@@ -1,0 +1,29 @@
+[
+  {
+    "model": "company.company",
+    "pk": "235e93b1-13ee-4c04-ae23-40d89ba38e50",
+    "fields": {
+      "user": "235e93b1-13ee-4c04-ae23-40d89ba38e50",
+      "company_name": "sadfasf",
+      "entrepreneur_name": "[\"sdafasdf\"]",
+      "website": "asdfasdf",
+      "email": "salam@gmail.com",
+      "address": "asdfasdf",
+      "phone_number": "asdfasdf",
+      "registration_docs": "3f17ef30-8ab5-49d0-8657-d88cf38459b3",
+      "github": null,
+      "tax_receipt": "3f17ef30-8ab5-49d0-8657-d88cf38459b3",
+      "intro_video": "3f17ef30-8ab5-49d0-8657-d88cf38459b3"
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 1,
+    "fields": {
+      "company": "235e93b1-13ee-4c04-ae23-40d89ba38e50",
+      "question": 1,
+      "answer_text": "[\"salam\", \"sasa\"]",
+      "attachment": "3f17ef30-8ab5-49d0-8657-d88cf38459b3"
+    }
+  }
+]

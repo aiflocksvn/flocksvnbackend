@@ -1,0 +1,15 @@
+[
+  {
+    "model": "rest_framework_api_key.apikey",
+    "//aki_key test ": "vaiDTsb0.S7XRhUacCPkyXaBGPt0vUA5QLddEBmn8-safir ",
+    "pk": "vaiDTsb0.pbkdf2_sha256$260000$s4764CjwNrLkFupS555f1D$FpIPaLFD3ze0oxK10xqftpoywWIDElSEGCRpFyEMLCM=",
+    "fields": {
+      "prefix": "vaiDTsb0",
+      "hashed_key": "pbkdf2_sha256$260000$s4764CjwNrLkFupS555f1D$FpIPaLFD3ze0oxK10xqftpoywWIDElSEGCRpFyEMLCM=",
+      "created": "2022-04-16T09:16:26.466Z",
+      "name": "WebSite Public Api",
+      "revoked": false,
+      "expiry_date": null
+    }
+  }
+]

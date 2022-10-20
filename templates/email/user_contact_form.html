@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        @font-face {
+            font-family: 'Chrismas';
+            src: url('https://www.anarsupermarket.website/static/web/ChristmasFarmhouse.ttf');
+        }
+
+        @font-face {
+            font-family: 'Segoeui';
+            src: url('https://www.anarsupermarket.website/static/web/SEGOEUI.TTF');
+        }
+
+        body {
+            background-color: #F7F7F7;
+            line-height: 1.5;
+            color: #3B4E56;
+            font-family: Segoeui;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 30px 0px;
+            height: 95vh;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            width: 50%;
+        }
+
+        .card-image {
+            width: 60px;
+            height: 60px;
+        }
+
+        .card-heading {
+            color: #3B4E56;
+            margin-top: 10px;
+        }
+
+        .user-info {
+            list-style-type: none;
+            text-align: left;
+            padding-left: 0px;
+        }
+
+        .user-info li {
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .label {
+            color: #627178;
+            font-weight: normal;
+        }
+
+        .divider {
+            margin: 100px 0px 40px 0px;
+            color: #627178;
+            display: block;
+        }
+
+        .more-info-heading {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 50px;
+            row-gap: 20px;
+            text-align: left;
+
+        }
+
+        .grid-item {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <img src="https://www.uploads.anarsupermarket.website/media/web/user.png" class="card-image"/>
+        <h3 class="card-heading">User Message</h3>
+        <ul class="user-info">
+            <li>
+                <span class="label">Name</span> <br/>
+                {{ name }}
+            </li>
+            <li>
+                <span class="label">Email</span> <br/>
+                {{ email }}
+            </li>
+            <li>
+                <span class="label">Subject</span> <br/>
+                {{ subject }}
+            </li>
+            <li>
+                <span class="label">Message</span> <br/>
+                {{ message }}
+            </li>
+        </ul>
+        <hr class="divider">
+        <h4 class="more-info-heading">More Info</h4>
+        <div class="grid-container">
+            <div class="grid-container">
+                {% for key,value in extra_data.item %}
+                    <div class="grid-item">
+                        <p>
+                            <span class="label">{{ key }}</span><br/>
+                            {{ value }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

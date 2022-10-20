@@ -1,0 +1,17 @@
+[
+  {
+    "model": "media_center.media",
+    "pk": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+    "fields": {
+      "security_permission": "public",
+      "upload_by": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+      "uploaded_on": "2022-05-11T09:36:47.510Z",
+      "file": "public/weblogo.png",
+      "remote_url": null,
+      "original_type": "image/png",
+      "size": 249602,
+      "length": null,
+      "alternative_text": "website logo"
+    }
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "model": "company.companypresentcategory",
+    "pk": 1,
+    "fields": {
+      "name": "All Industries"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 2,
+    "fields": {
+      "name": "AI"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Advertising and Marketing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Agriculture"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Art"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Biotechnology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Business to Business"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 8,
+    "fields": {
+      "name": "Clean Technology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 9,
+    "fields": {
+      "name": "Collectibles"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 10,
+    "fields": {
+      "name": "Consumer Internet"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 11,
+    "fields": {
+      "name": "Consumer Products"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 12,
+    "fields": {
+      "name": "Data/Analytics"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 13,
+    "fields": {
+      "name": "Design"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 14,
+    "fields": {
+      "name": "E-Commerce"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 15,
+    "fields": {
+      "name": "Education"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 16,
+    "fields": {
+      "name": "Electronics"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 17,
+    "fields": {
+      "name": "Engineering"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 18,
+    "fields": {
+      "name": "Environment"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 19,
+    "fields": {
+      "name": "Events"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 20,
+    "fields": {
+      "name": "Fashion   Apparel"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 21,
+    "fields": {
+      "name": "Featured"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 22,
+    "fields": {
+      "name": "Film   Video"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 23,
+    "fields": {
+      "name": "Financial Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 24,
+    "fields": {
+      "name": "Food   Beverage"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 25,
+    "fields": {
+      "name": "Gaming"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 26,
+    "fields": {
+      "name": "Health Tech"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 27,
+    "fields": {
+      "name": "Hospitality"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 28,
+    "fields": {
+      "name": "Legal Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 29,
+    "fields": {
+      "name": "Manufacturing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 30,
+    "fields": {
+      "name": "Market Research"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 31,
+    "fields": {
+      "name": "Media"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 32,
+    "fields": {
+      "name": "Mobile"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 33,
+    "fields": {
+      "name": "Music"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 34,
+    "fields": {
+      "name": "Pharmaceutical"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 35,
+    "fields": {
+      "name": "Professional Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 36,
+    "fields": {
+      "name": "Publishing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 37,
+    "fields": {
+      "name": "Real Estate"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 38,
+    "fields": {
+      "name": "Retail"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 39,
+    "fields": {
+      "name": "Social Media"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 40,
+    "fields": {
+      "name": "Software   Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 41,
+    "fields": {
+      "name": "Sports"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 42,
+    "fields": {
+      "name": "Technology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 43,
+    "fields": {
+      "name": "Transportation"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 44,
+    "fields": {
+      "name": "Travel/Tourism"
+    }
+  }
+]

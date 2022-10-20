@@ -1,0 +1,1521 @@
+[
+  {
+    "model": "company.company",
+    "pk": "38816166-4d04-49b9-aaba-816b9be267c7",
+    "fields": {
+      "status": "pending",
+      "created_at": "2022-05-16T11:01:07.338Z",
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "company_name": "Whimstay",
+      "entrepreneur_name": "[\"Ben Jamshahi\"]",
+      "website": "https://whimstay.com/",
+      "email": "contact@Whimstay.com",
+      "address": "588 Sutter St. Box 101, San Francisco, California 94102, US",
+      "phone_number": "+1-480-473-7883",
+      "registration_docs": "f9184734-8ac5-45a7-adb5-bf2553b78757",
+      "github": "",
+      "tax_receipt": "050288fd-6059-43eb-866b-d0922a6ba47e",
+      "intro_video": "e3d96f2a-02a7-4e87-bb26-40b95542cc35"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "3b5a78c6-317d-4419-add9-c0c81c074845",
+    "fields": {
+      "status": "approved",
+      "created_at": "2022-05-11T14:50:52.060Z",
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "company_name": "Alekozay",
+      "entrepreneur_name": "[\"Ehsan Safir\"]",
+      "website": "www.google.com",
+      "email": "salam@gmail.com",
+      "address": "test,asdfasdf",
+      "phone_number": "0799044274",
+      "registration_docs": null,
+      "github": null,
+      "tax_receipt": null,
+      "intro_video": null
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "6abb169f-bb67-4d92-a1b3-3e710edcc42c",
+    "fields": {
+      "status": "approved",
+      "created_at": "2022-05-15T07:13:47.151Z",
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "company_name": "elit enim idw",
+      "entrepreneur_name": "[\"aliquip occaecat in\", \"enim deserunt\"]",
+      "website": "consectetur nisi mollit",
+      "email": "nulla et",
+      "address": "velit eiusmod",
+      "phone_number": "eiusmod et ex ad",
+      "registration_docs": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e",
+      "github": "adipisicing consectetur esse",
+      "tax_receipt": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e",
+      "intro_video": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "86df85e2-8e3f-4f63-ab3f-70709e5ef8c9",
+    "fields": {
+      "status": "approved",
+      "created_at": "2022-05-15T07:21:05.082Z",
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "company_name": "elit enim id",
+      "entrepreneur_name": "[\"aliquip occaecat in\", \"enim deserunt\"]",
+      "website": "consectetur nisi mollit",
+      "email": "nulla et",
+      "address": "velit eiusmod",
+      "phone_number": "eiusmod et ex ad",
+      "registration_docs": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e",
+      "github": "adipisicing consectetur esse",
+      "tax_receipt": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e",
+      "intro_video": "d7ecfa4c-0337-4cf7-b85c-49410cc1367e"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": "9ec81a58-4425-4c80-bb90-f0024243c779",
+    "fields": {
+      "status": "pending",
+      "created_at": "2022-05-16T09:54:35.706Z",
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "company_name": "Jet Token Inc.",
+      "entrepreneur_name": "[\"George Murnane\", \"Michael Murray\"]",
+      "website": "https://jettoken.com/",
+      "email": "contact@jettoken.com",
+      "address": "10845 Griffith Peak Dr., Suite 200  Las Vegas, NV 89135",
+      "phone_number": "+1-800-602-5678",
+      "registration_docs": "a8974170-6cc3-486b-9993-4cdfe49291f5",
+      "github": "",
+      "tax_receipt": "66f02692-2cc9-4e41-ac61-485faa0f016f",
+      "intro_video": "f37e3bac-41e0-46b1-9cd5-a127c58c0b93"
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 1,
+    "fields": {
+      "company": "6abb169f-bb67-4d92-a1b3-3e710edcc42c",
+      "question": 1,
+      "answer_text": "[\"Ut eu\", \"fugiat nostrud in nulla\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 2,
+    "fields": {
+      "company": "86df85e2-8e3f-4f63-ab3f-70709e5ef8c9",
+      "question": 1,
+      "answer_text": "[\"Ut eu\", \"fugiat nostrud in nulla\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 3,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 15,
+      "answer_text": "[\"Jet Token aims to revolutionize the private jet industry in a period of record demand, empowering travelers to conveniently look, book and fly any aircraft right from the palm of their hands. The efficiency of our proposed blockchain technology is what sets us apart. Until Jet Token, owning aircraft, booking private flights, trading or selling aircraft time, and connecting private flights with commercial flights, all on the same itinerary in one convenient mobile application had never been possible. Jet Token expects to supercharge the $200 billion private jet industry by putting control back in the hands of the traveler. Jet Token has reserved the ticker \\\"PJ\\\" on the NASDAQ, see important disclaimers below.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 4,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 16,
+      "answer_text": "[\"Our board of advisors brings extensive industry knowledge to the team and includes former senior officers from HondaJet, Embraer, FlexJet by Bombardier, IAF and the founders of GoGo Jet and Myjets.com, respectively.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 5,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 17,
+      "answer_text": "[\"100 Full-time employees\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 6,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 18,
+      "answer_text": "[\"Travelling\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 7,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 19,
+      "answer_text": "[\"Our team is passionate about bringing the best platform possible to private air travel. CEO George Murnane has over thirty years of experience in aviation and is a pilot with commercial, instrument and multi-engine ratings. He was most recently employed as CEO of ImperialJet, where for seven years he ran a European private jet charter company that operated a fleet of private jet aircraft. Prior to ImperialJet, George served in various executive roles in the private and commercial aviation industry including COO/CFO of Vista Global and CFO of Mesa Air. Before aviation, George spent a decade as a successful investment banker in the transportation industry group of Merrill Lynch. He is a graduate of the University of Pennsylvania (BA) and The Wharton School (MBA).\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 8,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 20,
+      "answer_text": "[\"George Murnane, Michael Murray\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 9,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 21,
+      "answer_text": "[\"We believe the HondaJet Elite is one of the quietest and most cost-efficient light jets on the market and is ideally suited to the average US business jet mission profile mentioned above (2-3 passengers, 1.5 hrs). Engines over the wings mean less weight on the tail and more room in the cabin. The over the wing engine mount allows for a tranquil, spacious interior with generous baggage space and a fully enclosed lavatory. Below feel free to view this informative video on the HondaJet.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 10,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 22,
+      "answer_text": "[\"gffdhgd\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 11,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 23,
+      "answer_text": "[\"gfg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 12,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 24,
+      "answer_text": "[\"fbvc\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 13,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 25,
+      "answer_text": "[\"gfh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 14,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 26,
+      "answer_text": "[\"gf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 15,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 27,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 16,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 28,
+      "answer_text": "[\"hg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 17,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 29,
+      "answer_text": "[\"fhg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 18,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 30,
+      "answer_text": "[\"bnnvnbvv\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 19,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 31,
+      "answer_text": "[\"yjtgjhgg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 20,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 32,
+      "answer_text": "[\"hjhg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 21,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 33,
+      "answer_text": "[\"jhg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 22,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 34,
+      "answer_text": "[\"jhg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 23,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 35,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 24,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 36,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 25,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 37,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 26,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 38,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 27,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 39,
+      "answer_text": "[\"jh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 28,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 40,
+      "answer_text": "[\"gjh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 29,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 41,
+      "answer_text": "[\"gjh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 30,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 42,
+      "answer_text": "[\"gjg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 31,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 43,
+      "answer_text": "[\"jh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 32,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 44,
+      "answer_text": "[\"g\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 33,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 45,
+      "answer_text": "[\"mjjhg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 34,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 46,
+      "answer_text": "[\"hjyg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 35,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 47,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 36,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 48,
+      "answer_text": "[\"hgf\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 37,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 49,
+      "answer_text": "[\"hg\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 38,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 50,
+      "answer_text": "[\"nhjhghgju\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 39,
+    "fields": {
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "question": 51,
+      "answer_text": "[\"gjh\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 40,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 15,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 41,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 16,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 42,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 17,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 43,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 18,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 44,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 19,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 45,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 20,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 46,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 21,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 47,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 22,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 48,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 23,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 49,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 24,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 50,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 25,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 51,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 26,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 52,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 27,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 53,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 28,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 54,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 29,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 55,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 30,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 56,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 31,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 57,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 32,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 58,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 33,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 59,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 34,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 60,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 35,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 61,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 36,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 62,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 37,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 63,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 38,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 64,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 39,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 65,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 40,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 66,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 41,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 67,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 42,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 68,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 43,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 69,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 44,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 70,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 45,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 71,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 46,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 72,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 47,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 73,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 48,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 74,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 49,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 75,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 50,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companydetails",
+    "pk": 76,
+    "fields": {
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "question": 51,
+      "answer_text": "[\"Whimstay is the leading vacation rental marketplace for travelers looking to book last-minute stays at a great value. Whimstay offers a best-in-class user experience via our app and website, and provides hosts with top-notch support and an intuitive platform which makes filling unsold nights easy.\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 1,
+    "fields": {
+      "name": "All Industries"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 2,
+    "fields": {
+      "name": "AI"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Advertising and Marketing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Agriculture"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Art"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Biotechnology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Business to Business"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 8,
+    "fields": {
+      "name": "Clean Technology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 9,
+    "fields": {
+      "name": "Collectibles"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 10,
+    "fields": {
+      "name": "Consumer Internet"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 11,
+    "fields": {
+      "name": "Consumer Products"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 12,
+    "fields": {
+      "name": "Data/Analytics"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 13,
+    "fields": {
+      "name": "Design"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 14,
+    "fields": {
+      "name": "E-Commerce"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 15,
+    "fields": {
+      "name": "Education"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 16,
+    "fields": {
+      "name": "Electronics"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 17,
+    "fields": {
+      "name": "Engineering"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 18,
+    "fields": {
+      "name": "Environment"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 19,
+    "fields": {
+      "name": "Events"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 20,
+    "fields": {
+      "name": "Fashion   Apparel"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 21,
+    "fields": {
+      "name": "Featured"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 22,
+    "fields": {
+      "name": "Film   Video"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 23,
+    "fields": {
+      "name": "Financial Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 24,
+    "fields": {
+      "name": "Food   Beverage"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 25,
+    "fields": {
+      "name": "Gaming"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 26,
+    "fields": {
+      "name": "Health Tech"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 27,
+    "fields": {
+      "name": "Hospitality"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 28,
+    "fields": {
+      "name": "Legal Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 29,
+    "fields": {
+      "name": "Manufacturing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 30,
+    "fields": {
+      "name": "Market Research"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 31,
+    "fields": {
+      "name": "Media"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 32,
+    "fields": {
+      "name": "Mobile"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 33,
+    "fields": {
+      "name": "Music"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 34,
+    "fields": {
+      "name": "Pharmaceutical"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 35,
+    "fields": {
+      "name": "Professional Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 36,
+    "fields": {
+      "name": "Publishing"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 37,
+    "fields": {
+      "name": "Real Estate"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 38,
+    "fields": {
+      "name": "Retail"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 39,
+    "fields": {
+      "name": "Social Media"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 40,
+    "fields": {
+      "name": "Software   Services"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 41,
+    "fields": {
+      "name": "Sports"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 42,
+    "fields": {
+      "name": "Technology"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 43,
+    "fields": {
+      "name": "Transportation"
+    }
+  },
+  {
+    "model": "company.companypresentcategory",
+    "pk": 44,
+    "fields": {
+      "name": "Travel/Tourism"
+    }
+  },
+  {
+    "model": "company.companypresent",
+    "pk": 13,
+    "fields": {
+      "status": "pending",
+      "is_trending": true,
+      "is_hot": true,
+      "company": "3b5a78c6-317d-4419-add9-c0c81c074845",
+      "created_at": "2022-05-11T11:38:28.996Z",
+      "modified_at": "2022-05-11T11:38:28.997Z",
+      "cover_image": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "logo_image": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "company_name": "commodo cillum qui eiusmod laboris",
+      "company_sub_title": "in dolore nisi dolor",
+      "abstract": "",
+      "company_category": 1,
+      "founded": "1977-10-25",
+      "employees": -1130258465,
+      "website": "Lorem sed nulla incididunt",
+      "email": "ujLfZ@XXbBxFCItatbB.mnj",
+      "phone_number": "8D99xtBxIIiZLRT@Za.ert",
+      "location": "labore mo",
+      "facebook": "hello",
+      "twitter": "Lorem",
+      "linkedin": "dolor commodo in in elit",
+      "instagram": "esse irure",
+      "youtube": "proident aliqua dolor",
+      "investment_min": -1953776845,
+      "investment_target": 1974765761,
+      "price_per_share": "0.5600",
+      "shares_offered": "non sed et",
+      "offering_type": "magna tempor",
+      "closing_date": "2017-02-20"
+    }
+  },
+  {
+    "model": "company.companypresent",
+    "pk": 14,
+    "fields": {
+      "status": "pending",
+      "is_trending": true,
+      "is_hot": true,
+      "company": "6abb169f-bb67-4d92-a1b3-3e710edcc42c",
+      "created_at": "2022-05-16T10:49:14.625Z",
+      "modified_at": "2022-05-16T10:49:14.625Z",
+      "cover_image": "215f7371-22a8-435b-adb5-0d61489f8abd",
+      "logo_image": "0a42f908-5e0a-4a54-9dae-6e2d1d314c9d",
+      "company_name": "Jet Token Inc.",
+      "company_sub_title": "Private Aviation Platform",
+      "abstract": "Jet Token aims to revolutionize the private jet industry in a period of record demand, empowering travelers to conveniently look, book and fly any aircraft right from the palm of their hands. The efficiency of our proposed blockchain technology is what sets us apart. Until Jet Token, owning aircraft, booking private flights, trading or selling aircraft time, and connecting private flights with commercial flights, all on the same itinerary in one convenient mobile application had never been possible. Jet Token expects to supercharge the $200 billion private jet industry by putting control back in the hands of the traveler. Jet Token has reserved the ticker \"PJ\" on the NASDAQ, see important disclaimers below.",
+      "company_category": 44,
+      "founded": "2012-05-17",
+      "employees": 100,
+      "website": "https://jettoken.com/",
+      "email": "contact@jettoken.com",
+      "phone_number": "+1-80-607-5689",
+      "location": "10845 Griffith Peak Dr., Suite 200  Las Vegas, NV 89135",
+      "facebook": "https://www.facebook.com/jettoken/",
+      "twitter": "https://twitter.com/jet_token",
+      "linkedin": "https://www.linkedin.com/company/jettoken/",
+      "instagram": "https://instagram.com/jettoken",
+      "youtube": "https://www.youtube.com/results?search_query=Jettoken",
+      "investment_min": 349,
+      "investment_target": 3770455,
+      "price_per_share": "1.0000",
+      "shares_offered": null,
+      "offering_type": null,
+      "closing_date": "2024-07-16"
+    }
+  },
+  {
+    "model": "company.companypresent",
+    "pk": 15,
+    "fields": {
+      "status": "pending",
+      "is_trending": true,
+      "is_hot": true,
+      "company": "38816166-4d04-49b9-aaba-816b9be267c7",
+      "created_at": "2022-05-16T11:17:00.571Z",
+      "modified_at": "2022-05-16T11:17:00.571Z",
+      "cover_image": "5e94ba9e-d295-4cba-9957-83cbf0034c16",
+      "logo_image": "50929357-22d3-45ce-909d-9b28b5c3c9ee",
+      "company_name": "Whimstay",
+      "company_sub_title": "Last-Minute Stays",
+      "abstract": "Whimstay is a new vacation rental platform that offers travelers incredible last-minute deals on professionally managed properties. By negotiating a discount on unsold inventory Whimstay provides the best value to last-minute travelers while increasing occupancy and driving additional revenue for property management companies and property owners.",
+      "company_category": 13,
+      "founded": "2019-10-16",
+      "employees": 50,
+      "website": "https://whimstay.com/",
+      "email": "contact@whimstay.com",
+      "phone_number": "+1-45-567-0089",
+      "location": "588 Sutter St. Box 101, San Francisco, California 94102, US",
+      "facebook": "https://www.facebook.com/Whimstay/",
+      "twitter": "https://twitter.com/whimstay/",
+      "linkedin": "https://www.linkedin.com/company/whimstay",
+      "instagram": "https://www.instagram.com/whimstay/",
+      "youtube": "https://www.youtube.com/channel/UCjUD1GvV_02vI0sNrTMqOVA",
+      "investment_min": 249,
+      "investment_target": 1232262,
+      "price_per_share": "1.0000",
+      "shares_offered": null,
+      "offering_type": null,
+      "closing_date": "2026-11-16"
+    }
+  },
+  {
+    "model": "company.companypresent",
+    "pk": 16,
+    "fields": {
+      "status": "pending",
+      "is_trending": true,
+      "is_hot": true,
+      "company": "9ec81a58-4425-4c80-bb90-f0024243c779",
+      "created_at": "2022-05-16T11:33:32.802Z",
+      "modified_at": "2022-05-16T11:33:32.802Z",
+      "cover_image": "f12af224-d7ca-4d70-a322-06bd4826ed0c",
+      "logo_image": "62d50840-0016-425d-981a-3195413f2ea7",
+      "company_name": "Boxabl",
+      "company_sub_title": "Mass Production Building System",
+      "abstract": "Boxabl has created a building system that's compatible with scalable factory mass production. Our mission is to significantly lower the cost of homeownership for everyone. Obsessively designed to the highest standards of quality, strength, and sustainability to last for generations.",
+      "company_category": 29,
+      "founded": "2015-12-07",
+      "employees": 3,
+      "website": "https://boxabl.com/",
+      "email": "contact@boxabl.com",
+      "phone_number": "+1-35-507-6500",
+      "location": "North Las Vegas, NV",
+      "facebook": "https://facebook.com/",
+      "twitter": "https://twitter.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "instagram": "https://www.instagram.com/",
+      "youtube": "https://www.youtube.com/",
+      "investment_min": 1000,
+      "investment_target": 12975002,
+      "price_per_share": "1.0000",
+      "shares_offered": null,
+      "offering_type": null,
+      "closing_date": "2026-11-16"
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 3,
+    "fields": {
+      "name": "irure qui reprehenderit sint",
+      "position": "magna elit",
+      "about": "consectetur ipsum magna quis",
+      "linkedin": "Duis eu magna exercitation reprehenderit",
+      "image": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "company": 13
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 4,
+    "fields": {
+      "name": "nostrud",
+      "position": "id occaecat consequat Duis",
+      "about": "amet Duis sed",
+      "linkedin": "qui",
+      "image": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "company": 13
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 5,
+    "fields": {
+      "name": "George Murnane",
+      "position": "Chief Executive Officer",
+      "about": "Our team is passionate about bringing the best platform possible to private air travel. CEO George Murnane has over thirty years of experience in aviation and is a pilot with commercial, instrument and multi-engine ratings. He was most recently employed as CEO of ImperialJet, where for seven years he ran a European private jet charter company that operated a fleet of private jet aircraft. Prior to ImperialJet, George served in various executive roles in the private and commercial aviation industry including COO/CFO of Vista Global and CFO of Mesa Air. Before aviation, George spent a decade as a successful investment banker in the transportation industry group of Merrill Lynch. He is a graduate of the University of Pennsylvania (BA) and The Wharton School (MBA).",
+      "linkedin": "https://www.linkedin.com/company/jettoken/",
+      "image": "4242e7f6-cb64-407f-85bf-187446e08063",
+      "company": 14
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 6,
+    "fields": {
+      "name": "Ben Jamshahi",
+      "position": "Director & CEO",
+      "about": "Ben is a proven entrepreneur in information technology and consumer focused businesses with three successful exits. Ben has also owned a variety of vacation rental properties over the past 20 years and is intrigued with the opportunity to transform the Host and Traveler experience through the sharing economy. Ben loves to surf, travel and spend time with his three children.",
+      "linkedin": "https://www.linkedin.com/in/ben-jamshahi-506800172",
+      "image": "e42a5186-4c6f-4a4a-8ee4-52c0bf89f9d2",
+      "company": 15
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 7,
+    "fields": {
+      "name": "Noël Russell",
+      "position": "Marketing Director",
+      "about": "Noël’s insatiable curiosity and innovative spirit has led her to spend the past two decades developing dynamic programs and campaigns in both the nonprofit and for-profit sectors. Noël enjoys exercising her creative muscles by building authentic narratives and collaborating on programs and activations that aim to dignify, amplify, and connect diverse audiences. As a self-professed “digital media enthusiast”, Noël is constantly seeking out compelling opportunities to elevate storytelling and catalyze communities. Noël serves as a Digital Marketing Specialist for JAM Collective – a multifaceted PR firm where she partners with notable global brands to strategize, develop, and execute thoughtful seasonal and evergreen digital campaigns. She also serves a Communications Specialist for The Outbound Collective, the Partnerships Director for Ravel Media LLC, and the Marketing Director for Whimstay. Noël sits on the board of On The Land Media Collective, Pacific Northwest Outdoor Women, and Outside Voices Podcast - a project by Resource Media, where she also works as a facilitator for workshops and trainings.",
+      "linkedin": "https://www.linkedin.com/in/noelrussell/",
+      "image": "1c71bb15-5b6e-4d34-9ab2-5939092c2ba1",
+      "company": 15
+    }
+  },
+  {
+    "model": "company.companypresentteammember",
+    "pk": 8,
+    "fields": {
+      "name": "Paolo Tiramani",
+      "position": "Founder & CEO",
+      "about": "An industrial designer and mechanical engineer Paolo holds over 150 patent filings which have generated more than $1 billion in retail sales in a variety of industries.",
+      "linkedin": "https://www.linkedin.com/in/paolo-tiramani/",
+      "image": "d0535c29-0062-4a0e-9d91-3e463de906b0",
+      "company": 16
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 15,
+    "fields": {
+      "company": 13,
+      "title": "esse laborum cillum",
+      "details": "elit lab"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 16,
+    "fields": {
+      "company": 13,
+      "title": "veniam irure et eiusmod",
+      "details": "elit si"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 17,
+    "fields": {
+      "company": 14,
+      "title": "Overview",
+      "details": "<p>Jet Token is revolutionizing the private jet industry and empowering travelers to conveniently look, book and fly any aircraft right from the palm of their hands. The efficiency of our proposed blockchain technology is what sets us apart. Until Jet Token, owning aircraft, booking private flights, trading or selling aircraft time, and connecting private flights with commercial flights, all on the same itinerary in one convenient mobile application had never been possible. Our blockchain technology will allow those who buy 25-hour memberships or 75-hour fractions the option to<span>&nbsp;</span><strong>sell a portion of any unused time to any other Jet Token user or client</strong><span>&nbsp;</span>– enabling a more accessible market and democratizing the use of time across individual service providers.</p><p>&nbsp;</p><p>We’ve already proven that our app platform works and that our offerings are hitting a sweet spot for both existing and first-time private flyers. To scale-up faster, Jet Token has already started taking deliveries pursuant to a multi-aircraft deal for HondaJet Elite aircraft from Honda Aircraft Company, LLC. Building upon the strength and synergies between our two companies, Jet Token and Honda Aircraft are collaborating in marketing efforts and joint promotion of the HondaJet Elite and the Jet Token brand. We are incredibly proud and fortunate to have such close working relationships with all of our industry partners.</p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 18,
+    "fields": {
+      "company": 14,
+      "title": "Problem",
+      "details": "<h1><strong><span style=\"box-sizing: border-box; font-family: Lato, sans-serif;\">1) No Expedia for private jets</span></strong></h1><p>When it comes to booking travel, the private jet industry is fractured and lags far behind commercial aviation. Because there is no reliable, transparent portal for private air travel, it’s hard for private travelers to know if they are being charged a fair price. Operators typically take hours to confirm bookings and there is no system where customers can combine a private and commercial aviation booking.</p><p><br></p><h1><strong>2) Blocks of jet time are costly to resell!</strong></h1><p>Membership Fractional Ownership programs have big up-front costs, no refunds and many restrictions on the transfer of flight time. Even those programs that offer members an early exit usually do so only when it is in their benefit and will often charge a steep penalty that results in excess time going unused.</p><p><br></p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 19,
+    "fields": {
+      "company": 14,
+      "title": "Solution",
+      "details": "<h1><strong><span style=\"box-sizing: border-box; font-family: Lato, sans-serif;\">A unified platform that makes private air travel a breeze</span></strong></h1><p>Our scalable Jet Token platform is being developed with the traveler in mind, enabling seamless transactions and itinerary building between commercial and private travel for an unparalleled user and operator experience. In addition to the pricing of our own aircraft, Jet Token’s booking platform displays a variety of options across private aircraft types with a range of prices drawn from a list of thousands of aircraft for hire. We intend to offer instant booking and today already offer users the ability to request a jet and simultaneously task us with seeking a lower-cost alternative. As our own fleet of HondaJet Elites grows we can provide the backup customers may need in the unlikely event that the other charter operator has a last-minute change.</p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 20,
+    "fields": {
+      "company": 15,
+      "title": "Overview",
+      "details": "<p><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(30, 30, 30); font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.2px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Everyone deserves to enjoy the unique experience of escaping to a home away from home. After all, there’s nothing quite like a vacation when it comes to creating memories and soaking up quality time together. With people eager to travel more than ever, rental property managers shouldn’t be dealing with so many unbooked nights</span>.&nbsp;</span></span></p><p><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(30, 30, 30); font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.2px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Enter:&nbsp;</span><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Whimstay</span><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(30, 30, 30); background-color: rgb(251, 254, 253); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">. We offer exclusive, last-minute discounts to travelers and ensure fewer properties are left empty every night. Whether you’re on a budget or simply feeling spontaneous, Whimstay offers phenomenal deals for your last-minute getaway.</span></span></span></p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 21,
+    "fields": {
+      "company": 15,
+      "title": "Problem",
+      "details": "<div><br class=\"Apple-interchange-newline\">Whimstay is the exclusive last-minute distribution partner to Vacasa and Turnkey, two of the largest property management companies in North America.</div><div>The global vacation rental market was valued at over $87 billion in 2020 and is only growing.</div><div>Whimstay has received over 100,000 customer downloads and has partnered with over 680 property management companies to exclusively list last-minute stays - all with zero marketing spend.</div><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 22,
+    "fields": {
+      "company": 15,
+      "title": "Solution",
+      "details": "<h1><span style=\"box-sizing: border-box; font-family: Lato, sans-serif; font-size: 36px;\"><strong><span style=\"box-sizing: border-box; font-family: Lato, sans-serif; font-size: 27pt; color: rgb(0, 0, 0); background-color: rgb(251, 254, 253); font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Lower fees, higher occupancy rates</span></strong></span></h1><p><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(30, 30, 30); font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.2px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">At Whimstay, we’ve created a marketplace for travelers wanting the Airbnb and VRBO experience&nbsp;</span><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">but at an affordable price</span><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">.</span></span></span></p><p><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(30, 30, 30); font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: -0.2px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;\"><span style=\"box-sizing: border-box; font-family: &quot;IBM Plex Sans&quot; !important;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; font-size: 13.5pt; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">We believe we've got a significant advantage over our competitors: Whimstay’s business is built on the negotiation of an exclusive discount with our property management partners which substantiates a lower fee structure and secures an unbeatable price advantage. &nbsp;Also, we proudly guarantee that if a traveler can find a lower advertised price on any of the major sites, we’ll pay for their trip. (Zero payouts so far!)</span></span></span></span></p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 23,
+    "fields": {
+      "company": 16,
+      "title": "Overview",
+      "details": "<p>Most car factories like Ford or Tesla build approximately one car per minute. Isn’t it time we do that for houses? Boxabl’s goal is to scale up production and one day make that a reality.</p><p>We're offering a<span>&nbsp;</span><strong>better, sustainable, and cost-effective</strong><span>&nbsp;</span>way to build everything from houses to commercial buildings. While most buildings are still built by hand, one at a time, we hope that our building system can change this and bring building construction into the factory.</p><p>In 2020 we started raising money from investors to build a new type of house factory, we did just that, and now we are shipping houses.</p><p>We have proven our ability to execute, now we want to take things to the next level.</p><p>We are now seeking to raise approximately $1.07 billion dollars to build one of the largest and most advanced housing factories to make upscale housing affordable for everyone.</p><p>($500m Reg D equity, $500m debt, $68.5M Reg A+)</p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 24,
+    "fields": {
+      "company": 16,
+      "title": "Problem",
+      "details": "<h1><span style=\"box-sizing: border-box; font-family: Lato, sans-serif; font-size: 36px;\"><strong>Housing construction is stuck in the past</strong></span></h1><p><br></p><div class=\"se-component se-image-container __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://d2j6gq8tvnyhoe.cloudfront.net/b6886241-e60f-4733-9ee6-2b5c37fea30b.jpg\" class=\"fr-fic fr-dib lazy\" data-origin=\"100,\" alt=\"\" data-proportion=\"true\" data-size=\"618px,458px\" data-align=\"none\" data-index=\"0\" data-file-name=\"b6886241-e60f-4733-9ee6-2b5c37fea30b.jpg\" data-file-size=\"0\" style=\"width: 618px; height: 458px;\"></figure></div><p></p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://d2j6gq8tvnyhoe.cloudfront.net/d45e258d-73f4-41a1-9c04-cfb693f7102b.jpg\" class=\"fr-fic fr-dib lazy\" data-origin=\"100,\" alt=\"\" data-proportion=\"true\" data-size=\"617px,475px\" data-align=\"\" data-index=\"1\" data-file-name=\"d45e258d-73f4-41a1-9c04-cfb693f7102b.jpg\" data-file-size=\"0\" style=\"width: 617px; height: 475px;\"></figure></div><p></p><p><br>\n<!-- EndFragment --><br><br></p><p><br></p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdetails",
+    "pk": 25,
+    "fields": {
+      "company": 16,
+      "title": "Solution",
+      "details": "<h1><span style=\"box-sizing: border-box; font-family: Lato, sans-serif; font-size: 36px;\"><strong>A factory for mass-produced housing</strong></span></h1><p><span style=\"font-size: 16px;\"><span style=\"box-sizing: border-box; font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(30, 30, 30); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">The product is planned to include washer, dryer, fridge, stove, bathroom, kitchen, electric, HVAC and more. Just add your bed or couch and you have a turnkey, ready-to-go home. </span>We are working with third-party testing vendors to ensure our products are stronger, safer, and more sustainable than that of other housing competitors.</span></p><p><a href=\"https://youtu.be/iYe2Ut4IZVA\" rel=\"noopener noreferrer\" target=\"_blank\"><br class=\"Apple-interchange-newline\">\n<!-- EndFragment --><br><br></a></p><p><br></p>"
+    }
+  },
+  {
+    "model": "company.companypresentdocuments",
+    "pk": 3,
+    "fields": {
+      "company": 13,
+      "file": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "file_name": "documents.pdf"
+    }
+  },
+  {
+    "model": "company.companypresentdocuments",
+    "pk": 4,
+    "fields": {
+      "company": 13,
+      "file": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "file_name": "documents.pdf"
+    }
+  },
+  {
+    "model": "company.companypresentdocuments",
+    "pk": 5,
+    "fields": {
+      "company": 14,
+      "file": "d7a61bdd-648f-4ac5-81b4-2f9b82211b96",
+      "file_name": "documents.pdf"
+    }
+  },
+  {
+    "model": "company.companypresentdocuments",
+    "pk": 6,
+    "fields": {
+      "company": 15,
+      "file": "8095c1de-095e-42d7-a612-36f5f48ce8c8",
+      "file_name": "documents.pdf"
+    }
+  },
+  {
+    "model": "company.companypresentdocuments",
+    "pk": 7,
+    "fields": {
+      "company": 16,
+      "file": "72c49326-f048-4b37-8242-38ad7335b6a8",
+      "file_name": "documents.pdf"
+    }
+  }
+]

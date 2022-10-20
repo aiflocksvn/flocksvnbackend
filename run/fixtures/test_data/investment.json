@@ -1,0 +1,34 @@
+[
+  {
+    "model": "investment.investmentprofile",
+    "pk": 3,
+    "fields": {
+      "user": "e1b86b84-0907-412c-bc8a-a3aca20553da",
+      "investor_id_number": "32145",
+      "investor_name": "alokozay",
+      "investor_email": "alkozay@gmail.com",
+      "investor_address": "herat",
+      "investor_phone": "0799"
+    }
+  },
+  {
+    "model": "investment.investmentdetails",
+    "pk": 1,
+    "fields": {
+      "invest_id": 3,
+      "question": 1,
+      "answer_text": "[\"Technology\", \"Education Agriculture\", \"Waist Management\"]",
+      "attachment": null
+    }
+  },
+  {
+    "model": "investment.investmentdetails",
+    "pk": 2,
+    "fields": {
+      "invest_id": 3,
+      "question": 1,
+      "answer_text": "[\"Technology\", \"Education Agriculture\", \"Waist Management\"]",
+      "attachment": null
+    }
+  }
+]

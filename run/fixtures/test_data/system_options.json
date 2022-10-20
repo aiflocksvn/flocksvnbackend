@@ -1,0 +1,11 @@
+[
+  {
+    "model": "system_settings.systemoption",
+    "pk": 1,
+    "fields": {
+      "option_name": "contact_mail_address",
+      "option_value": "noreplay.earlybird@gmail.com",
+      "context": "server"
+    }
+  }
+]

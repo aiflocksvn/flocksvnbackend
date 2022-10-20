@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#99FB4D"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ website_name }}</title>
+    <style>
+        @media only screen and (max-width: 600px) {
+            h4 {
+                font-size: 12px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #EBFAFF;line-height: 1.5;color: #3B4E56;font-family: Roboto;">
+<div style=" display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;">
+    <div style="background-color: #151542;
+        color: #fff;
+        padding: 25px 30px;
+        border-radius: 22px;
+        text-align: center;
+        width: 96%;">
+        <img src="https://i.ibb.co/ZT7qLnW/email.png" style="width: 60px;
+            height: 60px;"/>
+        <h4 style="color: #fff; margin-bottom: 10px; margin-top: 10px;">Confirm Your Email Address</h4>
+        <p style="margin-bottom: 5px;">Thanks for creating a {{ website_name }} account. To continue, please confirm
+            your email address by clicking the button below.
+
+        </p>
+        <p style="margin-bottom: 10px;">If you didn't create an account with <a href="{{ website_url }}" style="color: #25AAE1;
+                text-decoration: none;">{{ website_name }}</a>, you can safely delete this email.</p>
+        <div style="text-align: center; margin-bottom: 10px;">
+            <a href="{{ confirm_path }}" style="display: inline-block;
+                background-color: #99FB4D;
+                color: #fff;
+                padding: 10px 40px;
+                text-decoration: none;
+                border-radius: 10px;
+                width: 80%;">Verify Email</a>
+        </div>
+        <div style="text-align: left;">
+            <p>
+                {{ website_name }}<br/>
+                Support Team
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

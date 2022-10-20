@@ -1,0 +1,134 @@
+[
+  {
+    "model": "dashboard.questionclass",
+    "pk": 1,
+    "fields": {
+      "name": "select areas of interest",
+      "name_vi": "chọn các lĩnh vực quan tâm",
+      "order": 1,
+      "related_to": "investment",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 2,
+    "fields": {
+      "name": "other information",
+      "name_vi": "thông tin khác",
+      "order": 2,
+      "related_to": "investment",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 3,
+    "fields": {
+      "name": "investor situation",
+      "name_vi": "tình hình nhà đầu tư",
+      "order": 3,
+      "related_to": "investment",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 4,
+    "fields": {
+      "name": "investment objectives and goals",
+      "name_vi": "mục tiêu và mục tiêu đầu tư",
+      "order": 4,
+      "related_to": "investment",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 5,
+    "fields": {
+      "name": "attitude towards risk",
+      "name_vi": "thái độ đối với rủi ro",
+      "order": 5,
+      "related_to": "investment",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 6,
+    "fields": {
+      "name": "team",
+      "name_vi": "đội",
+      "order": 1,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 7,
+    "fields": {
+      "name": "customers",
+      "name_vi": "khách hàng",
+      "order": 2,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 8,
+    "fields": {
+      "name": "idea",
+      "name_vi": "ý tưởng",
+      "order": 3,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 9,
+    "fields": {
+      "name": "traction",
+      "name_vi": "lực kéo",
+      "order": 4,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 10,
+    "fields": {
+      "name": "financials",
+      "name_vi": "tài chính",
+      "order": 5,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 11,
+    "fields": {
+      "name": "legal",
+      "name_vi": "hợp pháp",
+      "order": 6,
+      "related_to": "company",
+      "is_active": true
+    }
+  },
+  {
+    "model": "dashboard.questionclass",
+    "pk": 12,
+    "fields": {
+      "name": "other",
+      "name_vi": "khác",
+      "order": 7,
+      "related_to": "company",
+      "is_active": true
+    }
+  }
+]

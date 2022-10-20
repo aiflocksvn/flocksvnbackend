@@ -1,0 +1,128 @@
+[
+  {
+    "model": "system_settings.systemoption",
+    "pk": 1,
+    "fields": {
+      "option_label": "Contact Form Receive  Maile",
+      "option_name": "contact_mail_address",
+      "option_value": "noreplay.earlybird@gmail.com",
+      "attach": null,
+      "tag": "contact form",
+      "hint": "Send Contact Form Message to this e-email",
+      "context": "server",
+      "order": 3
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 2,
+    "fields": {
+      "option_label": "Web Site Name",
+      "option_name": "web_site_name",
+      "option_value": "Flocks AI",
+      "attach": null,
+      "tag": null,
+      "hint": null,
+      "context": "web",
+      "order": 2
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 3,
+    "fields": {
+      "option_label": "Web Site Logo",
+      "option_name": "web_site_logo",
+      "option_value": "gfh ghg",
+      "attach": "d09c6bb2-9906-4f44-a28c-cd323e13a048",
+      "tag": null,
+      "hint": null,
+      "context": "web",
+      "order": 1
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 4,
+    "fields": {
+      "option_label": "Contact Email",
+      "option_name": "contact_email",
+      "option_value": "info@flocks.vn",
+      "attach": null,
+      "tag": "contact form",
+      "hint": "you email address in contact us form ",
+      "context": "web",
+      "order": 4
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 5,
+    "fields": {
+      "option_label": "Contact Address",
+      "option_name": "contact_address",
+      "option_value": "386, Nguyen Trai StreetThanh Xuan DistrictHa Noi",
+      "attach": null,
+      "tag": " Nguyen Trai Street",
+      "hint": "you  address in contact us form ",
+      "context": "web",
+      "order": 5
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 6,
+    "fields": {
+      "option_label": "Contact Phone Number",
+      "option_name": "contact_phone_number",
+      "option_value": "(8424) 382 36 908",
+      "attach": null,
+      "tag": "contact form",
+      "hint": "you  phone in contact us form ",
+      "context": "web",
+      "order": 6
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 8,
+    "fields": {
+      "option_label": "FaceBook Link",
+      "option_name": "facebook_link",
+      "option_value": "@flocksAi",
+      "attach": null,
+      "tag": "social address",
+      "hint": null,
+      "context": "web",
+      "order": 8
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 9,
+    "fields": {
+      "option_label": "Twitter Link",
+      "option_name": "twitter_link",
+      "option_value": "@flocksAi",
+      "attach": null,
+      "tag": "social address",
+      "hint": null,
+      "context": "web",
+      "order": 9
+    }
+  },
+  {
+    "model": "system_settings.systemoption",
+    "pk": 10,
+    "fields": {
+      "option_label": "LinkedIn Link",
+      "option_name": "linkedin_link",
+      "option_value": "@flocksAi",
+      "attach": null,
+      "tag": "social address",
+      "hint": null,
+      "context": "web",
+      "order": 10
+    }
+  }
+]

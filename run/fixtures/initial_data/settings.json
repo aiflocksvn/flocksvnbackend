@@ -1,0 +1,85 @@
+[
+  {
+    "model": "system_settings.smtpconfig",
+    "pk": 1,
+    "fields": {
+      "use_tls": true,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "host_user": "noreplay.earlybird@gmail.com",
+      "host_password": "iyjqqfpdodaetyrf",
+      "use_ssl": false,
+      "default": true,
+      "used_for": "confirm_mail"
+    }
+  },
+  {
+    "model": "system_settings.smtpconfig",
+    "pk": 2,
+    "fields": {
+      "use_tls": true,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "host_user": "noreplay.earlybird@gmail.com",
+      "host_password": "iyjqqfpdodaetyrf",
+      "use_ssl": false,
+      "default": true,
+      "used_for": "reset_password"
+    }
+  },
+
+  {
+    "model": "system_settings.smtpconfig",
+    "pk": 3,
+    "fields": {
+      "use_tls": true,
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "host_user": "noreplay.earlybird@gmail.com",
+      "host_password": "iyjqqfpdodaetyrf",
+      "use_ssl": false,
+      "default": true,
+      "used_for": "info_mail"
+    }
+  },
+  {
+    "model": "system_settings.socialapp",
+    "pk": 1,
+    "fields": {
+      "provider": "google",
+      "auth_token_url": "https://oauth2.googleapis.com/token",
+      "authenticate_url": "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount",
+      "profile_url": "https://www.googleapis.com/userinfo/v2/me/",
+      "email_url": null,
+      "client_id": "671922347867-5aeg3ltqsi7prbnq9sshsrfghl47mj6m.apps.googleusercontent.com",
+      "client_secret": "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",
+      "redirect_uri": "https://earlybird-website.vercel.app/social/google",
+      "grant_type": "authorization_code",
+      "basic_authorization": false,
+      "scope": "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid",
+      "response_type": "code",
+      "params": null
+    }
+  },
+  {
+    "model": "system_settings.socialapp",
+    "pk": 2,
+    "fields": {
+      "provider": "facebook",
+      "auth_token_url": "https://graph.facebook.com/v12.0/oauth/access_token",
+      "authenticate_url": "https://www.facebook.com/v12.0/dialog/oauth",
+      "profile_url": "https://graph.facebook.com/me/",
+      "email_url": null,
+      "client_id": "577375150674996",
+      "client_secret": "dffe5f59e7a9a17e0b301b06ae3d5022",
+      "redirect_uri": "https://earlybird-website.vercel.app/social/facebook",
+      "grant_type": "authorization_code",
+      "basic_authorization": false,
+      "scope": "email",
+      "response_type": "code",
+      "params": {
+        "state": "state"
+      }
+    }
+  }
+]

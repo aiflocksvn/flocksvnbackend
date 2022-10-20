@@ -1,0 +1,35 @@
+[
+  {
+    "model": "learning_board.blogpost",
+    "pk": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+    "fields": {
+      "author": "9df8455f-7e78-49d0-855e-fcb8aa65c223",
+      "created_at": "2022-04-07T07:12:38.594Z",
+      "modified_at": "2022-04-07T07:12:38.595Z",
+      "title": "Thus teacher respond. My travel nice break factor those require.\nArea beyond staff bad happy. Interview two course major.\nA kind deep girl first anything. Wish notice phone may wind simple.",
+      "category": "082f59e0-b2b3-46d8-8e64-66d46101db4c",
+      "excerpt": "Coach religious rate travel sure color.",
+      "raw_content": "Sort feel hear professor president different.",
+      "content": "Son responsibility live view manage table.",
+      "post_status": "publish",
+      "comment_status": "open"
+    }
+  },
+  {
+    "model": "learning_board.blogpost",
+    "pk": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+    "fields": {
+      "author": "e1b86b84-0907-412c-bc8a-a3aca20554da",
+      "created_at": "2022-04-07T07:12:39.047Z",
+      "modified_at": "2022-04-07T07:12:39.047Z",
+      "title": "Fine my paper turn. Defense fall scene. Hear natural management goal fast.\nAction word age to rise religious pretty. Daughter little hand. Prove financial field accept list.",
+      "category": "082f59e0-b2b3-46d8-8e64-66d46101db4c",
+      "excerpt": "White tax seek find indeed third.",
+      "raw_content": "High mean term live official current various.",
+      "content": "Spring those get me.",
+      "post_status": "draft",
+      "comment_status": "close"
+    }
+  }
+
+]
